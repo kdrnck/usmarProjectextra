@@ -1,0 +1,71 @@
+{% extends "./base.html" %}
+{% load static %}
+{% block title %}Anasayfa{% endblock %}
+{% block content %}
+
+<main>
+  <section class="py-5 text-center container" style="background-color: tel;">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="h1 fw-bold">İşte! Usmar artık cepte!</h1>
+        <p class="lead text-muted">Usmar'ın rahatlığı, ürünlerin tazeliği ve güvenilirliği artık heryerden ulaşılabilir!
+          Tonlarca kategoriden yüzlerce ürün parmağının ucunda<br> <br>Hadi; İstediğin ürünleri seç, adresini gir ve
+          kapına gelsin!</p>
+        <p>
+          <a href="{% url "store:main" %}" class="btn btn-primary my-2">Başlayalım!</a>
+          <br>
+          <a href="https://+905513901028" class="btn btn-primary my-2">Telefonla sipariş ver</a>
+          <br>
+          <a href="" class="btn btn-primary my-2">Whatsapp Sipariş</a>
+        </p>
+        <br>
+        <br>
+        <br>
+
+        <div>
+        <h3>Detaylar</h3>
+        <br>
+
+        <p class="lead">Usmar Cepte ile kolayca istediğin ürünleri seçebilir, sepetine ekledikten sonra adres ve telefon detaylarını girdikten sonra
+          siparişini verebilirsin.
+        </p>
+          <br>
+        <p class="lead">
+          Telefon hattımızla ise istediğin ürünleri belirtebilir, detaylı bilgi alabilirsin.
+        </p>
+          <br>
+        <p class="lead">
+          Ya da Whatsapp Sipariş hattı ile istediğin ürünleri adresini de ekleyerek yollayabilir, siparişini alabilirsin.
+        </p>
+        </div>
+      </div>
+    </div>
+        <br>
+        <br>
+        <br>
+    <div>
+      <h3>Teslimat Ücretleri</h3>
+      <p>Usmar Cepte ile yaptığın siparişlerde ürünlerin teslimatı için iki farklı seçenek mevcuttur.</p>
+      <br>
+      <h4>Standart Teslimat  : 3,99 TL</h4>
+      <hr>
+      <h4>Öncelikli Teslimat : 7,99 TL</h4>
+      <hr>
+      <h4>50TL ve üzeri siparişlerde teslimat ücreti yok!</h4>
+      <br>
+      <p class="text-muted"> Standart Teslimat: Teslimat sonraki 2 saat içerisinde yapılır. Teslimat önceliği yoktur. Yoğunluğa göre teslim edilir</p>
+      <p class="text-muted">Öncelikli Teslimat: Sipariş verildiği anda hazırlanmaya başlar, hazırlandığı anda teslim edilmek üzere yola çıkar   </p>
+    </div>
+
+  </section>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+</main>
+
+{% endblock content %}
